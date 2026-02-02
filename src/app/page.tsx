@@ -116,11 +116,11 @@ export default function Home() {
                   height={700}
                 />
                 <div>
-                  <p className="work-meta">Production Project</p>
+                  <p className="work-meta">Client Project</p>
                   <h3>AR Alphaya Jewellery Website</h3>
                   <p>
-                    Built and deployed a live full-stack website using Next.js,
-                    Node.js, CMS APIs, responsive UI, and analytics.
+                    Developed and deployed a live e-commerce website for AR Alphaya Jewellery
+                    using Next.js, Node.js, CMS integration, responsive design, and analytics.
                   </p>
                 </div>
                 <Link className="work-link" href="/work/ar-alphaya-jewellery">
