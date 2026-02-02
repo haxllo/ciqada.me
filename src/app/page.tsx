@@ -292,7 +292,7 @@ export default function Home() {
 
         <footer className="footer">
           <span>© 2026 Muhammad Siraj Habeebur Rahman.</span>
-          <span>Portfolio · Next.js · Custom fonts</span>
+          <span>Portfolio · Next.js</span>
         </footer>
       </div>
     </div>
