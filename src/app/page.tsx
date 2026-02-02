@@ -122,15 +122,6 @@ export default function Home() {
                     Developed and deployed a live e-commerce website for AR Alphaya Jewellery
                     using Next.js, Node.js, CMS integration, responsive design, and analytics.
                   </p>
-                  <a 
-                    href="https://www.aralphayajewellery.com/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="button secondary"
-                    style={{ display: 'inline-flex', marginTop: '12px', fontSize: 'var(--step--1)' }}
-                  >
-                    Visit Live Site →
-                  </a>
                 </div>
                 <Link className="work-link" href="/work/ar-alphaya-jewellery">
                   View details

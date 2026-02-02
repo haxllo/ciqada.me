@@ -245,6 +245,16 @@ export default function CaseStudyPage({
             <Link className="button secondary" href="/#work">
               Back to work
             </Link>
+            {study.slug === "ar-alphaya-jewellery" && (
+              <a 
+                className="button secondary" 
+                href="https://www.aralphayajewellery.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Visit Live Site
+              </a>
+            )}
             <Link className="button primary" href="/#contact">
               Contact me
             </Link>
