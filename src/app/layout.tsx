@@ -15,8 +15,9 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ciqada — Portfolio",
-  description: "Portfolio showcasing selected skills, process, and contact.",
+  title: "Muhammad Siraj Habeebur Rahman — Portfolio",
+  description:
+    "Portfolio of Muhammad Siraj Habeebur Rahman, BIT undergraduate and aspiring software developer.",
 };
 
 export default function RootLayout({

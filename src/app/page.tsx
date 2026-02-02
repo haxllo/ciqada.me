@@ -1,13 +1,16 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="page">
       <div className="container">
         <header className="nav reveal" style={{ animationDelay: "0.05s" }}>
-          <div className="logo">Ciqada</div>
+          <div className="logo">Habeebur Rahman</div>
           <nav className="nav-links">
             <a href="#work">Work</a>
             <a href="#skills">Skills</a>
-            <a href="#approach">Approach</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
           </nav>
         </header>
@@ -16,28 +19,28 @@ export default function Home() {
           <section className="hero">
             <div>
               <p className="reveal" style={{ animationDelay: "0.1s" }}>
-                Product designer + front-end builder focused on B2B SaaS and
-                onboarding clarity.
+                Full-stack developer and BIT undergraduate at the University of
+                Moratuwa, focused on production-ready web applications.
               </p>
               <h1 className="reveal hero-title" style={{ animationDelay: "0.18s" }}>
-                I design and ship interfaces that reduce friction in complex
-                flows.
+                I build complete web products from frontend UI to backend APIs.
               </h1>
               <p className="reveal" style={{ animationDelay: "0.26s" }}>
-                My work combines discovery, interface systems, and production
-                build so teams can move fast without sacrificing craft. I bring
-                structure, direct storytelling, and visual precision to every
-                release.
+                My core stack includes HTML, CSS, JavaScript, TypeScript,
+                Tailwind, React, Next.js, and Node.js, with practical
+                experience in deployment and live maintenance.
               </p>
               <div className="cta-row reveal" style={{ animationDelay: "0.34s" }}>
                 <a className="button primary" href="#contact">
-                  Start a project
+                  Contact me
                 </a>
                 <a
                   className="button secondary"
-                  href="mailto:hello@ciqada.me"
+                  href="/Muhammad-Siraj-Habeebur-Rahman-CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  hello@ciqada.me
+                  Download CV
                 </a>
               </div>
             </div>
@@ -49,87 +52,120 @@ export default function Home() {
               </div>
               <div className="hero-card-grid">
                 <div className="hero-card-item">
-                  <p>Experience Design</p>
-                  <span>Journeys, architecture, systems</span>
+                  <strong>01</strong>
+                  <p>Backend Development</p>
+                  <span>Node.js, REST APIs, auth, PostgreSQL basics</span>
                 </div>
                 <div className="hero-card-item">
-                  <p>Visual Craft</p>
-                  <span>Type systems, hierarchy, layout</span>
+                  <strong>02</strong>
+                  <p>Frontend Development</p>
+                  <span>Next.js, React, responsive component architecture</span>
                 </div>
                 <div className="hero-card-item">
-                  <p>Front-End Build</p>
-                  <span>Next.js, interaction, UI polish</span>
+                  <strong>03</strong>
+                  <p>UI Engineering</p>
+                  <span>Tailwind CSS, responsive layout, UX polish</span>
                 </div>
                 <div className="hero-card-item">
-                  <p>Product Direction</p>
-                  <span>Strategy, narrative, alignment</span>
+                  <strong>04</strong>
+                  <p>Cloud & Tooling</p>
+                  <span>Git, Docker (basic), AWS, IBM Cloud, Azure</span>
                 </div>
               </div>
             </aside>
           </section>
 
+          <section className="snapshot reveal" style={{ animationDelay: "0.38s" }}>
+            <div className="snapshot-grid">
+              <article className="snapshot-card">
+                <span>Current Role</span>
+                <strong>Full-Stack Developer</strong>
+                <p>BIT undergraduate, University of Moratuwa</p>
+                <em>Primary focus: production-grade web delivery</em>
+              </article>
+              <article className="snapshot-card">
+                <span>Availability</span>
+                <strong>Open to Internships</strong>
+                <p>Entry-level and trainee software roles</p>
+                <em>Ready for remote or on-site collaboration</em>
+              </article>
+              <article className="snapshot-card">
+                <span>Core Stack</span>
+                <strong>Node · Next · TS · Tailwind</strong>
+                <p>React + REST APIs + deployment workflow</p>
+                <em>Tooling: Git, Docker, Linux, cloud fundamentals</em>
+              </article>
+            </div>
+          </section>
+
           <section id="work" className="section">
             <div className="section-head">
-              <h2 className="section-title">Selected Work</h2>
+              <h2 className="section-title">Featured Work</h2>
               <p className="section-subtitle">
-                Three recent engagements that show how I approach complex
-                product flows with measurable outcomes.
+                Production project and technical tracks aligned with my current
+                CV profile.
               </p>
             </div>
             <div className="work-grid">
               <article className="work-card">
-                <img
+                <Image
                   className="work-thumb"
                   src="/work/northwind-hero.svg"
-                  alt="Onboarding flow interface preview"
+                  alt="Programming and fundamentals study project visual"
+                  width={1200}
+                  height={700}
                 />
                 <div>
-                  <p className="work-meta">Onboarding · B2B SaaS</p>
-                  <h3>Northwind Commerce</h3>
+                  <p className="work-meta">Production Project</p>
+                  <h3>AR Alphaya Jewellery Website</h3>
                   <p>
-                    Reframed the setup flow into guided milestones, cutting
-                    time-to-first-value by 31%.
+                    Built and deployed a live full-stack website using Next.js,
+                    Node.js, CMS APIs, responsive UI, and analytics.
                   </p>
                 </div>
-                <a className="work-link" href="/work/northwind-commerce">
-                  View case study
-                </a>
+                <Link className="work-link" href="/work/ar-alphaya-jewellery">
+                  View details
+                </Link>
               </article>
               <article className="work-card">
-                <img
+                <Image
                   className="work-thumb"
                   src="/work/relay-hero.svg"
-                  alt="Design system component preview"
+                  alt="Web design and front-end learning project visual"
+                  width={1200}
+                  height={700}
                 />
                 <div>
-                  <p className="work-meta">Design System · Platform</p>
-                  <h3>Relay Intelligence</h3>
+                  <p className="work-meta">Academic Track</p>
+                  <h3>BIT Coursework Foundation</h3>
                   <p>
-                    Built a new component system that aligned six teams and
-                    reduced UI drift across releases.
+                    Coursework in web design/programming, databases, systems,
+                    and communication that supports end-to-end development.
                   </p>
                 </div>
-                <a className="work-link" href="/work/relay-intelligence">
-                  View case study
-                </a>
+                <Link className="work-link" href="/work/bit-coursework-foundation">
+                  View details
+                </Link>
               </article>
               <article className="work-card">
-                <img
+                <Image
                   className="work-thumb"
                   src="/work/atlas-hero.svg"
-                  alt="Analytics dashboard preview"
+                  alt="Cloud and tooling self-learning track visual"
+                  width={1200}
+                  height={700}
                 />
                 <div>
-                  <p className="work-meta">Growth · Analytics</p>
-                  <h3>Atlas Metrics</h3>
+                  <p className="work-meta">Cloud + Tooling</p>
+                  <h3>Tools & Platform Workflow</h3>
                   <p>
-                    Redesigned the activation flow, improving trial conversion
-                    by 18% within six weeks.
+                    Working with Git/GitHub/GitLab, Docker (basic), Linux, and
+                    cloud fundamentals in AWS, IBM Cloud, and Azure.
                   </p>
                 </div>
-                <a className="work-link" href="/work/atlas-metrics">
-                  View case study
-                </a>
+                <Link className="work-link" href="/work/tools-platform-workflow">
+                  View details
+                </Link>
               </article>
             </div>
           </section>
@@ -138,74 +174,78 @@ export default function Home() {
             <div className="section-head">
               <h2 className="section-title">Skills</h2>
               <p className="section-subtitle">
-                A balanced mix of product thinking and detailed execution.
-                Every engagement starts with clarity on outcomes and ends with
-                shippable assets.
+                Core technical capabilities from coursework and independent
+                study.
               </p>
             </div>
             <div className="skills-grid">
               <article className="skill-card">
-                <h3>Product Strategy</h3>
+                <h3>Backend & Programming</h3>
                 <p>
-                  Translating market signals into structured roadmaps, goal
-                  hierarchies, and messaging that keeps teams aligned.
+                  Building backend features with Node.js, REST APIs, and basic
+                  authentication and database integration patterns.
                 </p>
                 <div className="tag-row">
-                  <span className="tag">Discovery</span>
-                  <span className="tag">Positioning</span>
-                  <span className="tag">Roadmaps</span>
+                  <span className="tag">Node.js</span>
+                  <span className="tag">JavaScript</span>
+                  <span className="tag">REST APIs</span>
+                  <span className="tag">PostgreSQL</span>
                 </div>
               </article>
               <article className="skill-card">
-                <h3>Interface Systems</h3>
+                <h3>Next.js Frontend</h3>
                 <p>
-                  Building reusable patterns with consistent rules for spacing,
-                  typography, and motion so design scales without drift.
-                </p>
-                <div className="tag-row">
-                  <span className="tag">Design Systems</span>
-                  <span className="tag">Interaction</span>
-                  <span className="tag">Documentation</span>
-                </div>
-              </article>
-              <article className="skill-card">
-                <h3>Front-End Delivery</h3>
-                <p>
-                  Shipping responsive, accessible UI with modern tooling and
-                  clear handoff. Strong focus on maintainable structure.
+                  Developing performant, component-driven interfaces in Next.js
+                  with responsive layouts and clean UX structure.
                 </p>
                 <div className="tag-row">
                   <span className="tag">Next.js</span>
+                  <span className="tag">React</span>
+                  <span className="tag">Routing / App Structure</span>
+                </div>
+              </article>
+              <article className="skill-card">
+                <h3>TypeScript, Tailwind & Tooling</h3>
+                <p>
+                  Using TypeScript for safer code and Tailwind CSS for fast,
+                  consistent UI systems, supported by Git and cloud-native
+                  tooling.
+                </p>
+                <div className="tag-row">
                   <span className="tag">TypeScript</span>
-                  <span className="tag">Performance</span>
+                  <span className="tag">Tailwind CSS</span>
+                  <span className="tag">AWS / IBM Cloud / Azure</span>
+                  <span className="tag">Docker (basic)</span>
                 </div>
               </article>
             </div>
           </section>
 
-          <section id="approach" className="section">
+          <section id="experience" className="section">
             <div className="section-head">
-              <h2 className="section-title">Approach</h2>
+              <h2 className="section-title">Education & Experience</h2>
               <p className="section-subtitle">
-                A tight, collaborative process designed to keep momentum and
-                remove ambiguity.
+                Academic background, current study track, and role preferences.
               </p>
             </div>
             <div className="approach">
               <div className="approach-item">
-                <strong>01. Diagnose</strong>
-                I map the core problem, remove noise, and define how success is
-                measured.
+                <strong>University of Moratuwa</strong>
+                Bachelor of Information Technology (BIT), August 2024 to present.
+                Completed modules include Fundamentals of Programming, Web
+                Design, Mathematics and Statistics for IT, Communication Skills,
+                and Computing Systems.
               </div>
               <div className="approach-item">
-                <strong>02. Shape</strong>
-                Systems and interfaces are prototyped in short cycles with
-                continuous stakeholder feedback.
+                <strong>Self-Directed Learning</strong>
+                Actively studying AWS, IBM Cloud, Docker, Git, React.js, and
+                Linux while applying them through practical project work.
               </div>
               <div className="approach-item">
-                <strong>03. Deliver</strong>
-                Final assets are production-ready with documented components
-                and clear next steps.
+                <strong>Career Objective</strong>
+                Seeking internship or entry-level opportunities to apply
+                technical knowledge, contribute to a team, and grow through
+                real-world engineering work.
               </div>
             </div>
           </section>
@@ -213,42 +253,45 @@ export default function Home() {
           <section id="contact" className="section">
             <div className="contact">
               <div>
-                <h2>Let&apos;s build the next iteration.</h2>
+                <h2>Open to internships and entry-level roles.</h2>
                 <p>
-                  I&apos;m available for design partnerships and focused product
-                  sprints. Share the project scope and I&apos;ll respond within two
-                  business days.
+                  If your team is hiring for a junior developer, intern, or
+                  trainee role, I&apos;d be glad to share more details and discuss
+                  how I can contribute.
                 </p>
                 <div className="cta-row">
                   <a
                     className="button primary"
-                    href="mailto:hello@ciqada.me?subject=Project%20inquiry&body=Project%20summary%3A%0ATimeline%3A%0ABudget%20range%3A%0A"
+                    href="mailto:MSH.Rahman.email@gmail.com?subject=Internship%20Opportunity&body=Hi%20Muhammad%20Siraj%2C%0A%0AWe%20would%20like%20to%20discuss%20an%20opportunity.%0A"
                   >
-                    Send project brief
+                    Send email
                   </a>
-                  <a className="button secondary" href="/#work">
-                    View work
+                  <a
+                    className="button secondary"
+                    href="/Muhammad-Siraj-Habeebur-Rahman-CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View CV
                   </a>
                 </div>
               </div>
               <div className="contact-card">
-                <span>Project intake</span>
-                <strong>Best responses include</strong>
-                <ul className="contact-list">
-                  <li>Product type + audience</li>
-                  <li>Current stage and goals</li>
-                  <li>Timeline and team size</li>
-                  <li>Budget range and scope</li>
-                </ul>
-                <span>Availability</span>
-                <strong>New projects from March 2026</strong>
+                <span>Email</span>
+                <strong>MSH.Rahman.email@gmail.com</strong>
+                <span>Phone</span>
+                <strong>+94 78 691 2901</strong>
+                <span>Languages</span>
+                <strong>English, Sinhala, Tamil</strong>
+                <span>Location</span>
+                <strong>Kengalla, Sri Lanka</strong>
               </div>
             </div>
           </section>
         </main>
 
         <footer className="footer">
-          <span>© 2026 Ciqada. All rights reserved.</span>
+          <span>© 2026 Muhammad Siraj Habeebur Rahman.</span>
           <span>Portfolio · Next.js · Custom fonts</span>
         </footer>
       </div>

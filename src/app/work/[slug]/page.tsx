@@ -17,129 +17,129 @@ type CaseStudy = {
 
 const CASE_STUDIES: CaseStudy[] = [
   {
-    slug: "northwind-commerce",
-    title: "Northwind Commerce",
+    slug: "ar-alphaya-jewellery",
+    title: "AR Alphaya Jewellery",
     summary:
-      "Reframed a complex onboarding flow into guided milestones, cutting time-to-first-value by 31%.",
+      "Production full-stack website built with Next.js, Node.js, CMS APIs, and analytics integration.",
     images: [
       {
         src: "/work/northwind-hero.svg",
-        alt: "Onboarding milestones layout",
-        caption: "Milestone-driven onboarding with persistent progress rail.",
+        alt: "AR Alphaya production website preview",
+        caption: "Live production site built and maintained end-to-end.",
       },
       {
         src: "/work/northwind-detail.svg",
-        alt: "Setup checklist view",
-        caption: "Contextual checklist reducing ambiguity during setup.",
+        alt: "Backend and analytics integration preview",
+        caption: "Backend logic + CMS API integration with analytics tracking.",
       },
     ],
     overview:
-      "Northwind is a mid-market commerce platform with a multi-step setup for inventory, tax, and shipping. The existing flow forced users into a linear form with no sense of progress.",
+      "AR Alphaya Jewellery is a live production project where I handled both frontend and backend implementation.",
     problem:
-      "Activation was stalling because teams couldn’t see how close they were to go-live. Completion dropped sharply after step three.",
+      "The site needed a modern, responsive experience with maintainable backend integration and reliable deployment.",
     constraints: [
-      "Legacy admin UI with limited component library",
-      "No ability to change backend validation rules",
-      "Ship within one quarter without major re-platforming",
+      "Production quality expectations",
+      "Need for responsive UX across devices",
+      "Real-world reliability and deployment requirements",
     ],
     approach: [
-      "Mapped the onboarding journey into four milestones with clear readiness states.",
-      "Introduced a persistent progress rail and contextual save states.",
-      "Built a scoped UI kit to standardize panels, inputs, and status badges.",
+      "Developed the website using Next.js and modern frontend patterns.",
+      "Implemented backend logic using Node.js and CMS APIs.",
+      "Integrated analytics to monitor user behavior and performance.",
     ],
     decisions: [
-      "Kept core data requirements intact, but re-ordered steps by dependency.",
-      "Added a “skip for now” mechanic with explicit risk messaging.",
-      "Integrated inline error surfaces rather than modal blockers.",
+      "Prioritized maintainable full-stack architecture.",
+      "Used responsive-first UI decisions for cross-device support.",
+      "Established a deployment flow for live production maintenance.",
     ],
     outcome: [
-      "Time-to-first-value reduced by 31%.",
-      "Support tickets for onboarding dropped by 22%.",
-      "Engineering reported 40% fewer ad-hoc UI changes.",
+      "Delivered a complete production website.",
+      "Improved practical full-stack implementation confidence.",
+      "Built hands-on experience in live deployment and maintenance.",
     ],
   },
   {
-    slug: "relay-intelligence",
-    title: "Relay Intelligence",
+    slug: "bit-coursework-foundation",
+    title: "BIT Coursework Foundation",
     summary:
-      "Built a new component system that aligned six teams and reduced UI drift across releases.",
+      "Academic coursework that shaped core full-stack foundations across web, systems, and communication.",
     images: [
       {
         src: "/work/relay-hero.svg",
-        alt: "Design system component library",
-        caption: "Component library audit distilled into a scalable system.",
+        alt: "Coursework and web programming track preview",
+        caption: "Structured academic progression in web and software topics.",
       },
       {
         src: "/work/relay-detail.svg",
-        alt: "Token documentation preview",
-        caption: "Tokens and usage rules documented for consistent delivery.",
+        alt: "Relevant module breakdown preview",
+        caption: "Modules spanning web programming, databases, and systems.",
       },
     ],
     overview:
-      "Relay is a data platform used across multiple internal teams. The interface had grown inconsistent after repeated feature launches.",
+      "My BIT studies at the University of Moratuwa provide a base for practical full-stack work.",
     problem:
-      "Teams were shipping UI variations every sprint, slowing engineering and eroding brand trust.",
+      "Needed a broad technical base to support production projects and team-ready engineering work.",
     constraints: [
-      "Existing backlog of in-flight features",
-      "Need to support both light and dark data dashboards",
-      "Low tolerance for breaking changes",
+      "Balancing theory and practical implementation",
+      "Multiple domains to learn in parallel",
+      "Applying coursework directly to real project delivery",
     ],
     approach: [
-      "Audited 130+ screens to group patterns into reusable components.",
-      "Built tokens for spacing, color, and typography with strict usage rules.",
-      "Paired with engineering to ship a “drop-in” starter kit.",
+      "Focused on web design/development and web programming modules.",
+      "Built fundamentals in databases, systems, and design paradigms.",
+      "Strengthened technical communication for project collaboration.",
     ],
     decisions: [
-      "Set three border radii and locked them in the tokens.",
-      "Documented motion rules to reduce inconsistent hover states.",
-      "Created a migration checklist for product teams.",
+      "Prioritized modules directly relevant to full-stack development.",
+      "Connected coursework outcomes with production project requirements.",
+      "Maintained a practical learning path over purely theoretical depth.",
     ],
     outcome: [
-      "Six teams aligned on one UI standard within two releases.",
-      "Design review cycles dropped from 8 days to 3 days.",
-      "New features shipped 20% faster after rollout.",
+      "Stronger full-stack readiness and technical breadth.",
+      "Improved confidence in web architecture and systems thinking.",
+      "Better alignment between academic work and professional goals.",
     ],
   },
   {
-    slug: "atlas-metrics",
-    title: "Atlas Metrics",
+    slug: "tools-platform-workflow",
+    title: "Tools & Platform Workflow",
     summary:
-      "Redesigned the activation flow, improving trial conversion by 18% within six weeks.",
+      "Self-directed tooling stack for modern collaboration, deployment, and maintainable development workflow.",
     images: [
       {
         src: "/work/atlas-hero.svg",
-        alt: "Analytics activation preview",
-        caption: "Activation flow with a guided two-step starter path.",
+        alt: "Tools and platform workflow preview",
+        caption: "Toolchain supporting production-oriented development habits.",
       },
       {
         src: "/work/atlas-detail.svg",
-        alt: "Interactive report preview",
-        caption: "Live preview reducing uncertainty during setup.",
+        alt: "Cloud and deployment fundamentals preview",
+        caption: "Cloud + container basics integrated into project workflow.",
       },
     ],
     overview:
-      "Atlas is an analytics suite for product teams. Users needed to configure tracking before seeing value.",
+      "Outside coursework, I maintain a practical workflow around version control, container basics, Linux environments, and cloud platforms.",
     problem:
-      "Trial users were dropping before seeing their first report because setup felt heavy and uncertain.",
+      "Needed job-ready development habits for collaboration, deployment, and project reliability.",
     constraints: [
-      "Limited engineering bandwidth for net-new features",
-      "Had to keep the existing pricing and trial length",
-      "Data collection pipeline could not be modified",
+      "Learning multiple platforms simultaneously",
+      "Keeping tooling practical and project-focused",
+      "Applying fundamentals without overengineering",
     ],
     approach: [
-      "Simplified setup to a two-step starter path with guided defaults.",
-      "Added an interactive preview that updated as settings changed.",
-      "Introduced a “first report” checklist on the dashboard.",
+      "Used Git, GitHub, and GitLab in day-to-day project work.",
+      "Practiced Docker basics and Linux-based development flow.",
+      "Built cloud fundamentals in AWS, IBM Cloud, and Azure.",
     ],
     decisions: [
-      "Replaced the settings wall with a progressive disclosure layout.",
-      "Used inline validation to reduce error loops.",
-      "Added an in-product “next best action” prompt.",
+      "Prioritized repeatable tooling patterns over one-off setups.",
+      "Focused on skills that support full-stack deployment workflows.",
+      "Aligned tool learning with internship and junior role expectations.",
     ],
     outcome: [
-      "Trial conversion increased by 18% in six weeks.",
-      "Average setup time dropped from 27 minutes to 14 minutes.",
-      "Support requests about setup fell by 35%.",
+      "Improved confidence in project collaboration and versioning.",
+      "Practical cloud/tooling base supporting production delivery.",
+      "Clear, professional full-stack workflow foundation.",
     ],
   },
 ];
@@ -166,7 +166,7 @@ export default function CaseStudyPage({
       <div className="container">
         <header className="nav">
           <Link className="logo" href="/">
-            Ciqada
+            Habeebur Rahman
           </Link>
           <nav className="nav-links">
             <Link href="/#work">Work</Link>
@@ -246,7 +246,7 @@ export default function CaseStudyPage({
               Back to work
             </Link>
             <Link className="button primary" href="/#contact">
-              Start a project
+              Contact me
             </Link>
           </div>
         </main>
