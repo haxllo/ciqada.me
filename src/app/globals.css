@@ -279,6 +279,7 @@ a {
   align-items: start;
   position: relative;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
 }
 
 .hero-card-item::before {
@@ -287,10 +288,11 @@ a {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 2px;
+  width: 3px;
   background: var(--color-accent);
   opacity: 0;
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
 }
 
 .hero-card-item:hover {
