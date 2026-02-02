@@ -36,7 +36,7 @@ export default function Home() {
                 </a>
                 <a
                   className="button secondary"
-                  href="/Muhammad-Siraj-Habeebur-Rahman-CV.pdf"
+                  href="/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -268,7 +268,7 @@ export default function Home() {
                   </a>
                   <a
                     className="button secondary"
-                    href="/Muhammad-Siraj-Habeebur-Rahman-CV.pdf"
+                    href="/cv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
