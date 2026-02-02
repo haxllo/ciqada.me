@@ -122,6 +122,15 @@ export default function Home() {
                     Developed and deployed a live e-commerce website for AR Alphaya Jewellery
                     using Next.js, Node.js, CMS integration, responsive design, and analytics.
                   </p>
+                  <a 
+                    href="https://www.aralphayajewellery.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="button secondary"
+                    style={{ display: 'inline-flex', marginTop: '12px', fontSize: 'var(--step--1)' }}
+                  >
+                    Visit Live Site →
+                  </a>
                 </div>
                 <Link className="work-link" href="/work/ar-alphaya-jewellery">
                   View details
@@ -278,9 +287,17 @@ export default function Home() {
               </div>
               <div className="contact-card">
                 <span>Email</span>
-                <strong>MSH.Rahman.email@gmail.com</strong>
+                <strong>
+                  <a href="mailto:MSH.Rahman.email@gmail.com" style={{ color: 'inherit' }}>
+                    MSH.Rahman.email@gmail.com
+                  </a>
+                </strong>
                 <span>Phone</span>
-                <strong>+94 78 691 2901</strong>
+                <strong>
+                  <a href="tel:+94786912901" style={{ color: 'inherit' }}>
+                    +94 78 691 2901
+                  </a>
+                </strong>
                 <span>Languages</span>
                 <strong>English, Sinhala, Tamil</strong>
                 <span>Location</span>
@@ -292,7 +309,18 @@ export default function Home() {
 
         <footer className="footer">
           <span>© 2026 Muhammad Siraj Habeebur Rahman.</span>
-          <span>Portfolio · Next.js</span>
+          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <span>Portfolio · Next.js</span>
+            <a href="https://github.com/haxllo" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/msh-rahman" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>
+              LinkedIn
+            </a>
+            <a href="https://instagram.com/habeeb.codes" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>
+              Instagram
+            </a>
+          </div>
         </footer>
       </div>
     </div>
