@@ -160,9 +160,14 @@ export default function Home() {
                     using Next.js, Node.js, CMS integration, responsive design, and analytics.
                   </p>
                 </div>
-                <Link className="work-link" href="/work/ar-alphaya-jewellery">
-                  View details
-                </Link>
+                <a 
+                  className="work-link" 
+                  href="https://www.aralphayajewellery.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Visit Live Site
+                </a>
               </article>
               <article className="work-card">
                 <Image
